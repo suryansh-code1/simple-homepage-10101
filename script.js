@@ -1,3 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('Welcome to the Simple Homepage!');
+window.addEventListener('load', () => {
+    const welcomeSection = document.querySelector('.fade-in');
+    welcomeSection.style.opacity = 1;
 });
